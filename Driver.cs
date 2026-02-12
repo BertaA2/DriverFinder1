@@ -49,5 +49,15 @@ namespace DriverFinder1
         {
             return Math.Abs(X - order.X) + Math.Abs(Y - order.Y);
         }
+        /// <summary>
+        /// Вычисляет квадрат Евклидова расстояния до заказа (без извлечения корня)
+        /// Оптимизировано для сравнения расстояний
+        /// </summary>
+        public int SquareEuclideanDistanceTo(Order order)
+        {
+            int dx = X - order.X;
+            int dy = Y - order.Y;
+            return dx * dx + dy * dy;
+        }
     }
 }
