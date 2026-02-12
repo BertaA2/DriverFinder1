@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35506.116 d17.12
+VisualStudioVersion = 17.12.35506.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverFinder1", "DriverFinder1.csproj", "{CD71A66C-AD3B-4B7D-A3C7-45D269EEE959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverFinder1.Benchmarks", "..\DriverFinder1Benchmarks\DriverFinder1.Benchmarks.csproj", "{28767C57-605E-4D15-9CEB-C42D04C79AD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriverFinder1.Tests", "..\DriverFinder1-Tests\DriverFinder1.Tests.csproj", "{3B1EA1FF-2213-435C-9E63-79438D0BF394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CD71A66C-AD3B-4B7D-A3C7-45D269EEE959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD71A66C-AD3B-4B7D-A3C7-45D269EEE959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD71A66C-AD3B-4B7D-A3C7-45D269EEE959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28767C57-605E-4D15-9CEB-C42D04C79AD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28767C57-605E-4D15-9CEB-C42D04C79AD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28767C57-605E-4D15-9CEB-C42D04C79AD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28767C57-605E-4D15-9CEB-C42D04C79AD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1EA1FF-2213-435C-9E63-79438D0BF394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1EA1FF-2213-435C-9E63-79438D0BF394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1EA1FF-2213-435C-9E63-79438D0BF394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1EA1FF-2213-435C-9E63-79438D0BF394}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
