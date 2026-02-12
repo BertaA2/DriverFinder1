@@ -1,7 +1,6 @@
-﻿using DriverFinder.Algorithms;
-using DriverFinder1.Algorithms;
+﻿using DriverFinder1.Algorithms;
 
-namespace DriverFinder
+namespace DriverFinder1
 {
     class Program
     {

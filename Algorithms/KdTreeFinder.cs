@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using DriverFinder1.Algorithms;
 
 namespace DriverFinder1.Algorithms
 {
-    public class KdTreeAlgorithm : IAlgorithm
+    public class KdTreeFinder : IAlgorithm
     {
+        
+        
         public string AlgorithmName => "KD-Tree Algorithm";
 
         // Класс для узла KD-дерева
@@ -171,13 +174,6 @@ namespace DriverFinder1.Algorithms
             _root = null;
             _isTreeBuilt = false;
         }
-    }
-
-    // Если у вас еще нет этих интерфейсов/классов, добавьте их:
-    public interface IAlgorithm
-    {
-        string AlgorithmName { get; }
-        IEnumerable<Driver> FindNearestDrivers(Order order, IEnumerable<Driver> drivers, int count);
     }
 
     public class Driver
